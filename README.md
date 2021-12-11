@@ -1,5 +1,9 @@
 # Amazon question/answer dataset
 
+<img src='https://www.kaggle.com/static/images/site-logo.png' width=80>
+
+<br/>
+
 #### Description:
 This dataset contains Question and Answer data from Amazon, totaling around 1.4 million answered questions.<br/>
 
