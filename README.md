@@ -7,6 +7,28 @@
 #### Description:
 This dataset contains Question and Answer data from Amazon, totaling around 1.4 million answered questions.<br/>
 
+### Multi-Question dataset metadata
+
+|Category|# Questions|# Answers|
+|:-------|:----------|:--------|
+|Automotive|10577|233784|
+|Baby|3754|82034|
+|Beauty|5857|125652|
+|Cell Phones and Accessories|10320|237220|
+|Clothing Shoes and Jewelry|2871|66709|
+|Electronics|38959|867921|
+|Grocery and Gourmet Food|2997|62243|
+|Health and Personal Care|10766|255209|
+|Home and Kitchen|24329|611335|
+|Musical Instruments|2976|67326|
+|Office Products|5634|130088|
+|Patio Lawn and Garden|7909|193780|
+|Pet Supplies|4731|133274|
+|Sports and Outdoors|19102|444900|
+|Tools and Home Improvement|13315|327597|
+|Toys and Games|7337|151779|
+|Video Games|1183|28893|
+
 #### Categories:
 * Appliances
 * Arts Crafts and Sewing
