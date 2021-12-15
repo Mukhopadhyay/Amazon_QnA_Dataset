@@ -1,6 +1,6 @@
 # Amazon question/answer dataset
 
-<a href='https://www.kaggle.com/praneshmukhopadhyay/amazon-questionanswer-dataset' target='_blank'><img src='https://www.kaggle.com/static/images/site-logo.png' width=100></a> <a href="https://github.com/Mukhopadhyay/Amazon_QnA_Dataset" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" width=50></a>
+<a href='https://www.kaggle.com/praneshmukhopadhyay/amazon-questionanswer-dataset' target='_blank'><img src='https://www.kaggle.com/static/images/site-logo.png' width=100></a>
 
 ### Description:
 This dataset contains Question and Answer data from Amazon, totaling around 1.4 million answered questions. The data were collected and made available by [Prof. Julian McAuley](http://cseweb.ucsd.edu/~jmcauley/) of [UCSD](https://ucsd.edu/) (University of San Diego)<be>
