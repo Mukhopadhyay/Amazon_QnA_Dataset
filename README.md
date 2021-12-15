@@ -1,12 +1,11 @@
 # Amazon question/answer dataset
 
-<img src='https://www.kaggle.com/static/images/site-logo.png' width=80>
-
-<br/>
+<a href='https://www.kaggle.com/praneshmukhopadhyay/amazon-questionanswer-dataset' target='_blank'><img src='https://www.kaggle.com/static/images/site-logo.png' width=100></a> <a href="https://github.com/Mukhopadhyay/Amazon_QnA_Dataset" target='_blank'><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/2048px-Octicons-mark-github.svg.png" width=50></a>
 
 ### Description:
-This dataset contains Question and Answer data from Amazon, totaling around 1.4 million answered questions. The data was collected and made available by Prof. [Julian McAuley](http://cseweb.ucsd.edu/~jmcauley/) of [UCSD](https://ucsd.edu/) (University of San Diego)<br/>
+This dataset contains Question and Answer data from Amazon, totaling around 1.4 million answered questions. The data were collected and made available by [Prof. Julian McAuley](http://cseweb.ucsd.edu/~jmcauley/) of [UCSD](https://ucsd.edu/) (University of San Diego)<be>
 
+---
 #### Available Categories:
 * Appliances
 * Arts Crafts and Sewing
@@ -30,6 +29,7 @@ This dataset contains Question and Answer data from Amazon, totaling around 1.4 
 * Toys and Games
 * Video Games
 
+---
 ### Single-Question dataset info
 |Category|# Questions / Answers|
 |:-------|:--------------------|
@@ -56,8 +56,9 @@ This dataset contains Question and Answer data from Amazon, totaling around 1.4 
 |Appliances|9011|
 |**Total**|**1396896**|
 
-### Multi-Question dataset info
+---
 
+### Multi-Question dataset info
 |Category|# Questions|# Answers|
 |:-------|:----------|:--------|
 |Automotive|10577|233784|
@@ -79,14 +80,15 @@ This dataset contains Question and Answer data from Amazon, totaling around 1.4 
 |Video Games|1183|28893|
 |**Total**|**172617**|**4019744**|
 
+---
 
-#### Citation:
-**Modeling ambiguity, subjectivity, and diverging viewpoints in opinion question answering systems**<br/>
-Mengting Wan, Julian McAuley<br/>
-International Conference on Data Mining (ICDM), 2016<br/>
+### Citation:
+**Modeling ambiguity, subjectivity, and diverging viewpoints in opinion question answering systems**<br>
+Mengting Wan, Julian McAuley<br>
+International Conference on Data Mining (ICDM), 2016<br>
 [PDF](https://cseweb.ucsd.edu//~jmcauley/pdfs/icdm16c.pdf)
 
-**Addressing complex and subjective product-related queries with customer reviews**<br/>
-Julian McAuley, Alex Yang<br/>
-World Wide Web (WWW), 2016<br/>
+**Addressing complex and subjective product-related queries with customer reviews**<br>
+Julian McAuley, Alex Yang<br>
+World Wide Web (WWW), 2016<br>
 [PDF](https://cseweb.ucsd.edu//~jmcauley/pdfs/www16b.pdf)
