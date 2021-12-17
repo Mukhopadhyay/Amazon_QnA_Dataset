@@ -1,6 +1,44 @@
 # Multi answer dataset
 The questions present in this directory contains more than one answer. Which is why they're seperated into different subdirectories. Please use `QuestionID` attribute to join the `multi_questions` and `multi_answers` datasets
 
+---
+
+## Starter Code (Reading the data as `pd.DataFrame`)
+
+### Answers dataset
+```python
+import os
+import pandas as pd
+
+answers_path = 'data/multi/answers'
+answers = pd.concat(
+    [
+        pd.read_csv(
+            os.path.join(answers_path, fname)
+        ) for fname in os.listdir(answers_path) if fname.endswith('.csv')
+    ]
+)
+```
+
+---
+
+### Questions dataset
+```python
+import os
+import pandas as pd
+
+questions_path = 'data/multi/questions'
+questions = pd.concat(
+    [
+        pd.read_csv(
+            os.path.join(questions_path, fname)
+        ) for fname in os.listdir(questions_path) if fname.endswith('.csv')
+    ]
+)
+```
+
+---
+
 ### Available Categories
 * Automotive
 * Baby
@@ -19,6 +57,8 @@ The questions present in this directory contains more than one answer. Which is 
 * Tools and Home Improvement
 * Toys and Games
 * Video Games
+
+---
 
 ### Multi-Question dataset info
 |Category|# Questions|# Answers|
@@ -41,3 +81,4 @@ The questions present in this directory contains more than one answer. Which is 
 |Toys and Games|7337|151779|
 |Video Games|1183|28893|
 |**Total**|**172617**|**4019744**|
+---

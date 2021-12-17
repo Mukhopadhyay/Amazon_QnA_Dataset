@@ -1,6 +1,26 @@
 # Single answer dataset
 The dataset present in this directory has only one answer associated with every question. Each row of the dataset contains both a question and an answer. 
 
+---
+
+## Starter Code (Reading the data as `pd.DataFrame`)
+
+```python
+import os
+import pandas as pd
+
+single_path = 'data/single'
+single = pd.concat(
+    [
+        pd.read_csv(
+            os.path.join(single_path, fname)
+        ) for fname in os.listdir(single_path) if fname.endswith('.csv')
+    ]
+)
+```
+
+---
+
 ### Available Categories:
 * Appliances
 * Arts Crafts and Sewing
